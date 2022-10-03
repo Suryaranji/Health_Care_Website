@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
 
 :root{
-    --green:#ffd700;
+    --orange:#FFA500;
     --black:#444;
     --light-color:#777;
     --box-shadow:.5rem .5rem 0 rgba(22, 160, 133, .2);
     --text-shadow:.4rem .4rem 0 rgba(0, 0, 0, .2);
-    --border:.2rem solid var(--green);
+    --border:.2rem solid var(--orange);
 }
 
 *{
@@ -46,7 +46,7 @@ section:nth-child,.About(even){
 
 .heading span{
     text-transform: uppercase;
-    color:var(--green);
+    color:var(--orange);
 }
 
 .btn{
@@ -57,7 +57,7 @@ section:nth-child,.About(even){
     border:var(--border);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    color:var(--green);
+    color:var(--orange);
     cursor: pointer;
     font-size: 1.7rem;
     background: #fff;
@@ -66,18 +66,18 @@ section:nth-child,.About(even){
 .btn span{
     padding:.7rem 1rem;
     border-radius: .5rem;
-    background: var(--green);
+    background: var(--orange);
     color:#fff;
     margin-left: .5rem;
 }
 
 .btn:hover{
-    background: var(--green);
+    background: var(--orange);
     color:#fff;
 }
 
 .btn:hover span{
-    color: var(--green);
+    color: var(--orange);
     background:#fff;
     margin-left: 1rem;
 }
@@ -100,15 +100,12 @@ section:nth-child,.About(even){
 }
 
 .header .logo i{
-    color: var(--green);
+    color: var(--orange);
 }
 
 .header .navbar a{
     font-size: 1.7rem;
     color: var(--light-color);
-<<<<<<< HEAD
-    margin-left: 2rem;
-=======
     margin-left: 1rem;
     font-weight: bolder;
 
@@ -140,20 +137,19 @@ a:hover:after{
     width: 100%;
 }
 .header h3{
-margin-right: 37rem;
+margin-right: 55rem;
 font-size: 30px;
->>>>>>> parent of 2feb728 (fixed header)
 }
 
 .header .navbar a:hover{
-    color: var(--green);
+    color: var(--orange);
 }
 
 #menu-btn{
     font-size: 2.5rem;
     border-radius: .5rem;
     background: #eee;
-    color:var(--green);
+    color:var(--orange);
     padding: 1rem 1.5rem;
     cursor: pointer;
     display: none;
@@ -211,7 +207,7 @@ font-size: 30px;
 
 .icons-container .icons i{
     font-size: 4.5rem;
-    color:var(--green);
+    color:var(--orange);
     padding-bottom: .7rem;
 }
 
@@ -242,7 +238,7 @@ font-size: 30px;
 }
 
 .services .box-container .box i {
-    color: var(--green);
+    color: var(--orange);
     font-size: 5rem;
     padding-bottom: .5rem;
 }
@@ -321,7 +317,7 @@ font-size: 30px;
 }
 
 .doctors .box-container .box span{
-    color:var(--green);
+    color:var(--orange);
     font-size: 1.5rem;
 }
 
@@ -334,14 +330,14 @@ font-size: 30px;
     width: 5rem;
     line-height: 4.5rem;
     font-size: 2rem;
-    color:var(--green);
+    color:var(--orange);
     border-radius: .5rem;
     border:var(--border);
     margin:.3rem;
 }
 
 .doctors .box-container .box .share a:hover{
-    background:var(--green);
+    background:var(--orange);
     color:#fff;
     box-shadow: var(--box-shadow);
 }
@@ -441,7 +437,7 @@ font-size: 30px;
     position: absolute;
     top:-4rem; left: 50%;
     transform:translateX(-50%);
-    background:var(--green);
+    background:var(--orange);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     height: 25rem;
@@ -495,12 +491,12 @@ font-size: 30px;
 }
 
 .blogs .box-container .box .content .icon a:hover{
-    color:var(--green);
+    color:var(--orange);
 }
 
 .blogs .box-container .box .content .icon a i{
     padding-right: .5rem;
-    color: var(--green);
+    color: var(--orange);
 }
 
 .blogs .box-container .box .content h3{
@@ -536,7 +532,7 @@ font-size: 30px;
 
 .footer .box-container .box a i{
     padding-right: .5rem;
-    color:var(--green);
+    color:var(--orange);
 }
 
 .footer .box-container .box a:hover i{
@@ -554,7 +550,7 @@ font-size: 30px;
 }
 
 .footer .credit span{
-    color:var(--green);
+    color:var(--orange);
 }
 
 
