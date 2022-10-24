@@ -48,7 +48,7 @@
         <div class="image">
             <img src="image/ins.svg" alt="">
         </div>
-        <form action="php\signin.php" onsubmit="return validateform()" name="bookForm" method="get">
+        <form action="php\signin.php?posted" onsubmit="return validateform()" name="bookForm" method="get">
             <h3>Sign In</h3>
             <input type="text" placeholder="Name" class="box" pattern="[A-Za-z]*" name="name" required>
             <input type="email" placeholder="Email" class="box" name="mail" required>
