@@ -48,14 +48,11 @@
         <div class="image">
             <img src="image/ins.svg" alt="">
         </div>
-        <form action="php\book.php" onsubmit="return validateform()" name="bookForm" method="get">
-            <h3>book appointment</h3>
+        <form action="php\signin.php" onsubmit="return validateform()" name="bookForm" method="get">
+            <h3>Sign In</h3>
             <input type="text" placeholder="Name" class="box" pattern="[A-Za-z]*" name="name" required>
-            <input type="tel" placeholder="1234567890" class="box" id="number"  name="number" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
             <input type="email" placeholder="Email" class="box" name="mail" required>
-            <input type="date" class="box"  name="date" required>
-            <input type="submit" value="Book Now" class="btn"><br>
-            <input type="submit" value="Sign Up & Book" class="btn">
+            <input type="submit" value="Signin" class="btn">
         </form>
     
 

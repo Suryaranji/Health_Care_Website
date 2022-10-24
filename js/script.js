@@ -11,6 +11,29 @@ window.onscroll = () =>{
     navbar.classList.remove('active');
 }
 var called=true;
+var number=document.getElementById("number");
+number.addEventListener('invalid', () =>{
+    if(number.value==='')
+    {
+        number.setCustomValidity("Enter Number");
+    }
+    else
+    {
+        number.setCustomValidity("Enter Valid Number");
+    }
+
+}
+);
+// function validateform()
+// {
+   
+//    var number=document.forms["bookForm"]["phNo"].value;
+  
+  
+//    }
+
+   
+// }
 function checkup()
 {
     if(called)
